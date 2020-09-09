@@ -1,0 +1,27 @@
+.profile {
+    background: white;
+    border-radius: 6px;
+    padding: 2px;
+    display: inline-block;
+    box-shadow: 2px 3px 8px 1px rgba(0, 0, 0, 0.45);
+    .desc {
+        background: blue;
+        border-radius: 6px;
+        display: inline-block;
+        padding: 8px;
+
+        text-align: center;
+        h3 {
+            margin: 0;
+            color: #fff;
+        }
+        .pic {
+            background: white;
+            display: inline-block;
+            img {
+                height: 24px;
+                width: 24px;
+            }
+        }
+    }
+}
